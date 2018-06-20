@@ -1,0 +1,15 @@
+V3 7
+FL C:/Users/Fabio/Downloads/HaaFuncionandoJaneiro-20180501T153158Z-001/TrabalhoCLC/decoder.vhd 2018/05/01.18:26:39 P.20131013
+EN work/decoder 1525210006 \
+      FL C:/Users/Fabio/Downloads/HaaFuncionandoJaneiro-20180501T153158Z-001/TrabalhoCLC/decoder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/decoder/Behavioral 1525210007 \
+      FL C:/Users/Fabio/Downloads/HaaFuncionandoJaneiro-20180501T153158Z-001/TrabalhoCLC/decoder.vhd \
+      EN work/decoder 1525210006 AR work/encoder/Behavioral 1525210005 CP encoder
+FL C:/Users/Fabio/Downloads/HaaFuncionandoJaneiro-20180501T153158Z-001/TrabalhoCLC/encoder.vhd 2018/05/01.14:30:18 P.20131013
+EN work/encoder 1525210004 \
+      FL C:/Users/Fabio/Downloads/HaaFuncionandoJaneiro-20180501T153158Z-001/TrabalhoCLC/encoder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/encoder/Behavioral 1525210005 \
+      FL C:/Users/Fabio/Downloads/HaaFuncionandoJaneiro-20180501T153158Z-001/TrabalhoCLC/encoder.vhd \
+      EN work/encoder 1525210004

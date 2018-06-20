@@ -1,0 +1,9 @@
+xst -intstyle ise -ifn "C:/Users/Fabio/Downloads/HaaFuncionandoJaneiro-20180501T153158Z-001/TrabalhoCLC/encoder.xst" -ofn "C:/Users/Fabio/Downloads/HaaFuncionandoJaneiro-20180501T153158Z-001/TrabalhoCLC/encoder.syr" 
+xst -intstyle ise -ifn "C:/Users/Fabio/Downloads/HaaFuncionandoJaneiro-20180501T153158Z-001/TrabalhoCLC/encoder.xst" -ofn "C:/Users/Fabio/Downloads/HaaFuncionandoJaneiro-20180501T153158Z-001/TrabalhoCLC/encoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-4 encoder.ngc encoder.ngd  
+map -intstyle ise -p xc3s100e-vq100-4 -cm area -ir off -pr off -c 100 -o encoder_map.ncd encoder.ngd encoder.pcf 
+xst -intstyle ise -ifn "C:/Users/Fabio/Downloads/HaaFuncionandoJaneiro-20180501T153158Z-001/TrabalhoCLC/encoder.xst" -ofn "C:/Users/Fabio/Downloads/HaaFuncionandoJaneiro-20180501T153158Z-001/TrabalhoCLC/encoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-4 encoder.ngc encoder.ngd  
+map -intstyle ise -p xc3s100e-vq100-4 -cm area -ir off -pr off -c 100 -o encoder_map.ncd encoder.ngd encoder.pcf 
+par -w -intstyle ise -ol high -t 1 encoder_map.ncd encoder.ncd encoder.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml encoder.twx encoder.ncd -o encoder.twr encoder.pcf 

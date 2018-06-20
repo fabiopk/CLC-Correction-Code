@@ -1,0 +1,3 @@
+vhdl work "encoder.vhd"
+vhdl work "decoder.vhd"
+vhdl work "test_dec.vhd"
